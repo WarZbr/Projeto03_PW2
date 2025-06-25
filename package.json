@@ -1,15 +1,21 @@
 {
   "name": "alunos-api",
   "version": "1.0.0",
-  "description": "API para gerenciamento de alunos",
+  "description": "API para gerenciamento de alunos com autenticação JWT",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "test": "node test-api.js"
   },
+  "keywords": ["api", "alunos", "jwt", "express", "crud"],
+  "author": "Seu Nome",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2",
     "bcryptjs": "^2.4.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
